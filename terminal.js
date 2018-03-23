@@ -4,8 +4,8 @@
  *** http://websitedevteam.com
  *** February 20, 2018
  ***/
- 
- 
+
+
 var i=0;
 
 function command(input_cmd) {
@@ -19,17 +19,17 @@ function command(input_cmd) {
 		div.appendChild(div2);
 		document.body.appendChild(div);
 		div.setAttribute("style", "margin-left: 10px;");
-        
+
 		input_line(i);
 		i++;
-	} 	
+	}
 	else if(input_cmd == 'date' || input_cmd == 'time') {
     	window.close();
-        
+
 		input_line(i);
 		i++;
-	} 	
-	
+	}
+
 	else if(input_cmd == 'help' || input_cmd == 'Help') {
     	var div = document.createElement("DIV");
 		var br1 = document.createElement("BR");
@@ -48,7 +48,7 @@ function command(input_cmd) {
 		div.appendChild(div4);
 		document.body.appendChild(div);
 		div.setAttribute("style", "margin-left: 10px;");
-        
+
 		input_line(i);
 		i++;
 	}
@@ -99,7 +99,7 @@ function command(input_cmd) {
 	}
 	else if(input_cmd == 'clear') {
     	window.location.reload(true);
-		
+
 		input_line(i);
 		i++;
 	}
@@ -140,7 +140,7 @@ function command(input_cmd) {
 		var br5 = document.createElement("BR");
 		var br6 = document.createElement("BR");
 
-		
+
 		a1.appendChild(div1);
 		a1.setAttribute("href", "http://arkmumc.org");
 		a1.setAttribute("target", "_blank");
@@ -158,7 +158,7 @@ function command(input_cmd) {
 		a3.setAttribute("target", "_blank");
 		a3.setAttribute("style", "text-decoration:none; color: #fff; width: 33%; margin-right: 0%; display: inline-block; ");
 		div.appendChild(a3);
-		
+
 		div.appendChild(br1);
 
 		a4.appendChild(div4);
@@ -178,7 +178,7 @@ function command(input_cmd) {
 		a6.setAttribute("target", "_blank");
 		a6.setAttribute("style", "text-decoration:none; color: #fff; width: 33%; margin-right: 0%; display: inline-block; ");
 		div.appendChild(a6);
-		
+
 		div.appendChild(br2);
 
 		a7.appendChild(div7);
@@ -227,7 +227,7 @@ function command(input_cmd) {
 	else if(input_cmd == 'cat ARKMUMC' || input_cmd == 'cat arkmumc'|| input_cmd == 'cat Arkmumc') {
 		var div = document.createElement("DIV");
 		var addr = document.createElement("A");
-		var client = document.createTextNode("Client - Arkansas Korean Mission United Methodist Church");      
+		var client = document.createTextNode("Client - Arkansas Korean Mission United Methodist Church");
 		var br1 = document.createElement("BR");
 		var contact = document.createTextNode("Contact - arkmumc@gmail.com");
 		var br2 = document.createElement("BR");
@@ -263,7 +263,7 @@ function command(input_cmd) {
 	else if(input_cmd == 'cat bike rack brewing' || input_cmd == 'cat Bike Rack Brewing') {
 		var div = document.createElement("DIV");
 		var addr = document.createElement("A");
-		var client = document.createTextNode("Client - Bike Rack Brewing");      
+		var client = document.createTextNode("Client - Bike Rack Brewing");
 		var br1 = document.createElement("BR");
 		var proj = document.createTextNode("Project Type - Website Design and Development and Product Photoshoot");
 		var br2 = document.createElement("BR");
@@ -294,7 +294,7 @@ function command(input_cmd) {
 	else if(input_cmd == 'cat green pillow' || input_cmd == 'cat Green Pillow') {
 		var div = document.createElement("DIV");
 		var addr = document.createElement("A");
-		var client = document.createTextNode("Client - Green Pillow");      
+		var client = document.createTextNode("Client - Green Pillow");
 		var br1 = document.createElement("BR");
 		var proj = document.createTextNode("Project Type - Website Design and Development");
 		var br2 = document.createElement("BR");
@@ -316,7 +316,7 @@ function command(input_cmd) {
 		input_line(i);
 		i++;
 	}
-	else if(input_cmd == 'open greenpillow.org' || input_cmd == 'open http://greenpillow.org' || input_cmd == 'open green pillow' || input_cmd == 'open Green Pillow') {	
+	else if(input_cmd == 'open greenpillow.org' || input_cmd == 'open http://greenpillow.org' || input_cmd == 'open green pillow' || input_cmd == 'open Green Pillow') {
 		window.open("http://greenpillow.org");
 
 		input_line(i);
@@ -325,7 +325,7 @@ function command(input_cmd) {
 	else if(input_cmd == 'cat ibcd woodwork' || input_cmd == 'cat IBCD Woodwork') {
 		var div = document.createElement("DIV");
 		var addr = document.createElement("A");
-		var client = document.createTextNode("Client - IBCD Woodwork");      
+		var client = document.createTextNode("Client - IBCD Woodwork");
 		var br1 = document.createElement("BR");
 		var proj = document.createTextNode("Project Type - Website Design and Development, Photoshoot, Digital Marketing ");
 		var br2 = document.createElement("BR");
@@ -356,7 +356,7 @@ function command(input_cmd) {
 	else if(input_cmd == 'cat nwacc' || input_cmd == 'cat NWACC') {
 		var div = document.createElement("DIV");
 		var addr = document.createElement("A");
-		var client = document.createTextNode("Client - Northwest Arkansas Community College");      
+		var client = document.createTextNode("Client - Northwest Arkansas Community College");
 		var br1 = document.createElement("BR");
 		var proj = document.createTextNode("Project Type - Re-design Footer");
 		var br2 = document.createElement("BR");
@@ -378,7 +378,7 @@ function command(input_cmd) {
 		input_line(i);
 		i++;
 	}
-	else if(input_cmd == 'open nwacc.edu' || input_cmd == 'open http://nwacc.edu' || input_cmd == 'open nwacc' || input_cmd == 'open NWACC') {	
+	else if(input_cmd == 'open nwacc.edu' || input_cmd == 'open http://nwacc.edu' || input_cmd == 'open nwacc' || input_cmd == 'open NWACC') {
 		window.open("http://nwacc.edu");
 
 		input_line(i);
@@ -387,7 +387,7 @@ function command(input_cmd) {
 	else if(input_cmd == 'cat razorback shop' || input_cmd == 'cat Razorback Shop') {
 		var div = document.createElement("DIV");
 		var addr = document.createElement("A");
-		var client = document.createTextNode("Client - University of Arkansas Razorback Shop");      
+		var client = document.createTextNode("Client - University of Arkansas Razorback Shop");
 		var br1 = document.createElement("BR");
 		var proj = document.createTextNode("Project Type - Website Design and Development and Digital Marketing");
 		var br2 = document.createElement("BR");
@@ -418,7 +418,7 @@ function command(input_cmd) {
 	else if(input_cmd == 'cat university regalia system' || input_cmd == 'cat regalia system' || input_cmd == 'cat University Regalia System') {
 		var div = document.createElement("DIV");
 		var addr = document.createElement("A");
-		var client = document.createTextNode("Client - University of Arkansas");      
+		var client = document.createTextNode("Client - University of Arkansas");
 		var br1 = document.createElement("BR");
 		var proj = document.createTextNode("Project Type - Regalia Management Web App Design and Development");
 		var br2 = document.createElement("BR");
@@ -448,7 +448,7 @@ function command(input_cmd) {
 	else if(input_cmd == 'cat University Bookstore' || input_cmd == 'cat university bookstore') {
 		var div = document.createElement("DIV");
 		var addr = document.createElement("A");
-		var client = document.createTextNode("Client - University of Arkansas Bookstore");      
+		var client = document.createTextNode("Client - University of Arkansas Bookstore");
 		var br1 = document.createElement("BR");
 		var proj = document.createTextNode("Project Type - Website Design and Development and Digital Marketing");
 		var br2 = document.createElement("BR");
@@ -470,7 +470,7 @@ function command(input_cmd) {
 		input_line(i);
 		i++;
 	}
-	else if(input_cmd == 'open http://uofastore.com' || input_cmd == 'open uofastore.com' || input_cmd == 'open University Bookstore' || input_cmd == 'open university bookstore') {	
+	else if(input_cmd == 'open http://uofastore.com' || input_cmd == 'open uofastore.com' || input_cmd == 'open University Bookstore' || input_cmd == 'open university bookstore') {
 		window.open("http://uofastore.com");
 
 		input_line(i);
@@ -479,7 +479,7 @@ function command(input_cmd) {
 	else if(input_cmd == 'cat University Grad Wall' || input_cmd == 'cat university grad wall') {
 		var div = document.createElement("DIV");
 		var addr = document.createElement("A");
-		var client = document.createTextNode("Client - University of Arkansas Bookstore");      
+		var client = document.createTextNode("Client - University of Arkansas Bookstore");
 		var br1 = document.createElement("BR");
 		var proj = document.createTextNode("Project Type - Interactive Digital Signage Design and Development");
 		var br2 = document.createElement("BR");
@@ -501,7 +501,7 @@ function command(input_cmd) {
 		input_line(i);
 		i++;
 	}
-	else if(input_cmd == 'open http://websitedevteam.com/staging/gradwall/' || input_cmd == 'open websitedevteam.com/staging/gradwall/' || input_cmd == 'open University Grad Wall' || input_cmd == 'open university grad wall') {	
+	else if(input_cmd == 'open http://websitedevteam.com/staging/gradwall/' || input_cmd == 'open websitedevteam.com/staging/gradwall/' || input_cmd == 'open University Grad Wall' || input_cmd == 'open university grad wall') {
 		window.open("http://websitedevteam.com/staging/gradwall/");
 
 		input_line(i);
@@ -510,7 +510,7 @@ function command(input_cmd) {
 	else if(input_cmd == 'cat table tennis mount' || input_cmd == 'cat Table Tennis Mount') {
 		var div = document.createElement("DIV");
 		var addr = document.createElement("A");
-		var client = document.createTextNode("Client - Table Tennis Mount");      
+		var client = document.createTextNode("Client - Table Tennis Mount");
 		var br1 = document.createElement("BR");
 		var proj = document.createTextNode("Project Type - Website Design and Development and Digital Marketing");
 		var br2 = document.createElement("BR");
@@ -541,7 +541,7 @@ function command(input_cmd) {
 	else if(input_cmd == 'cat website dev team' || input_cmd == 'cat Website Dev Team') {
 		var div = document.createElement("DIV");
 		var addr = document.createElement("A");
-		var client = document.createTextNode("Client - Me!");      
+		var client = document.createTextNode("Client - Me!");
 		var br1 = document.createElement("BR");
 		var proj = document.createTextNode("Project Type - Put Right People On Right Project");
 		var br2 = document.createElement("BR");
@@ -572,7 +572,7 @@ function command(input_cmd) {
 	else if(input_cmd == 'cat ') {
 		var div = document.createElement("DIV");
 		var addr = document.createElement("A");
-		var client = document.createTextNode("Client - ");      
+		var client = document.createTextNode("Client - ");
 		var br1 = document.createElement("BR");
 		var proj = document.createTextNode("Project Type - ");
 		var br2 = document.createElement("BR");
@@ -615,7 +615,7 @@ function input_line(i) {
 
 	var i_cmd = "cmd"+i;
 	var ent = 'if(event.keyCode == 13)command(this.value);';
-	
+
 	var j_cmd = "cmd"+ j;
 	var ent2 = "input[name="+j_cmd+"]";
 
@@ -635,7 +635,7 @@ function input_line(i) {
 	input.setAttribute("type", "text");
 	input.setAttribute("id", i_cmd);
 	input.setAttribute("name", i_cmd);
-	
+
 	input.setAttribute("size", "40");
 	input.setAttribute("onkeydown", ent);
 	document.body.appendChild(input).focus();
