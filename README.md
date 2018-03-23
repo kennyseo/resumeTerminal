@@ -12,5 +12,6 @@ Mac terminal style resume template - [See Project Details](http://websitedevteam
 - cat
 - open
 - clear
+
 and you can add more.
 
