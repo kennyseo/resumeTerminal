@@ -1,2 +1,2 @@
 # resumeTerminal
-Mac terminal app style resume
+Mac terminal style resume
