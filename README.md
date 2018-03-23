@@ -13,5 +13,5 @@ Mac terminal style resume template - [See Project Details](http://websitedevteam
 - open
 - clear
 
-and you can add more.
+and you can add more commands.
 
