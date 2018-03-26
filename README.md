@@ -1,5 +1,5 @@
 # resumeTerminal
-Mac terminal style resume template - [See Project Details](http://websitedevteam.com/terminal).
+Mac terminal style resume template - <a href="http://websitedevteam.com/terminal" target="_blank">See Project Details</a>.
 
 ![resumeterminal](https://user-images.githubusercontent.com/37382955/37850969-221ab090-2eab-11e8-90ed-cbcbe3235e02.gif)
 
